@@ -1,17 +1,22 @@
-* {
-    font-family: sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
     --white: #ffffff;
 }
 
-body {
+#bg-image {
 background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), 
     url('./assets/mountain-night.jpg');
 height: 100vh;
-background-position: center;
 background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 padding: 0.5rem calc((100vw - 1200px) / 2);
 }
 

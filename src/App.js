@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume"
+import Footer from "./components/Footer"
 
 // App function
 function App() {
@@ -25,15 +26,20 @@ function App() {
         showResume={() => setPageIndex(3)}
       />
       {pageIndex === 0 ? (
-        <About />
+        <About />,
+        <Footer />
       ) : pageIndex === 1 ? (
-        <Portfolio />
+        <Portfolio />,
+        <Footer />
       ) : pageIndex === 2 ? (
-        <Contact />
+        <Contact />,
+        <Footer />
       ) : pageIndex === 3 ? (
-        <Resume />
+        <Resume />,
+        <Footer />
       ) : (
-        <About />
+        <About />,
+        <Footer />
       )}
     </div>
   );

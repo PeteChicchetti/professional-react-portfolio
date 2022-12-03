@@ -3,7 +3,7 @@ import React from "react";
 const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
     return (
         <header>
-            <div className="container" style= {{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div className="containerFluid" style= {{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                 <h1>Pete Chicchetti</h1>
                 <ul style={{ display: "flex", listStyle: "none"}}>
                     <li className="nav-list" style={{ marginLeft: "10px" }} onClick={showAbout}>About</li>

@@ -19,6 +19,7 @@ function App() {
         showAbout={() => setPageIndex(0)}
         showPortfolio={() => setPageIndex(1)}
         showContact={() => setPageIndex(2)}
+        showResume={() => setPageIndex(3)}
       />
       {pageIndex === 0 ? (
         <About />

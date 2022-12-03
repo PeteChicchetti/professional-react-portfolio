@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = () => {
+const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
     return (
         <header>
             <div className="container">

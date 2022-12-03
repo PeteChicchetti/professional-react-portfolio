@@ -6,10 +6,10 @@ const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
             <div className="container" style= {{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                 <h1>Pete Chicchetti</h1>
                 <ul style={{ display: "flex", listStyle: "none"}}>
-                    <li style={{ marginLeft: "10px" }} onClick={showAbout}>About</li>
-                    <li style={{ marginLeft: "10px" }} onClick={showContact}>Contact</li>
-                    <li style={{ marginLeft: "10px" }} onClick={showPortfolio}>Portfolio</li>
-                    <li style={{ marginLeft: "10px" }} onClick={showResume}>Resume</li>
+                    <li className="nav-list" style={{ marginLeft: "10px" }} onClick={showAbout}>About</li>
+                    <li className="nav-list" style={{ marginLeft: "10px" }} onClick={showContact}>Contact</li>
+                    <li className="nav-list" style={{ marginLeft: "10px" }} onClick={showPortfolio}>Portfolio</li>
+                    <li className="nav-list" style={{ marginLeft: "10px" }} onClick={showResume}>Resume</li>
                 </ul>
             </div>
         </header>

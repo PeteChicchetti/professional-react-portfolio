@@ -26,21 +26,17 @@ function App() {
         showResume={() => setPageIndex(3)}
       />
       {pageIndex === 0 ? (
-        <About />,
-        <Footer />
+        <About />
       ) : pageIndex === 1 ? (
-        <Portfolio />,
-        <Footer />
+        <Portfolio />
       ) : pageIndex === 2 ? (
-        <Contact />,
-        <Footer />
+        <Contact />
       ) : pageIndex === 3 ? (
-        <Resume />,
-        <Footer />
+        <Resume />
       ) : (
-        <About />,
-        <Footer />
+        <About />
       )}
+        <Footer />
     </div>
   );
 }

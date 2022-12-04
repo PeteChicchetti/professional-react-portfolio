@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Footer = () => {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container className="footer">
-        <Row className='' style={{ justifyContent: 'center', alignItems: 'center'}}>
+        <div className="footer container-fluid">
+        <Row className='container-fluid' style={{ margin:'0px', justifyContent: 'center', alignItems: 'center'}}>
             <Col md='4' className='copywright'>
                 <h3>Developed by Pete Chicchetti</h3>
             </Col>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </Col>
             </Col>
         </Row>
-        </Container>
+        </div>
     )
 }
 

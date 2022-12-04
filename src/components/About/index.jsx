@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const About = () => {
     return (
-        <Container>
-            <Row>
+        <div>
+        <div id='bg' className='container-fluid'>
+            <Row className='container-fluid'>
                 <Col>
                 About me information
                 </Col>
@@ -12,11 +13,21 @@ const About = () => {
                 Logo
                 </Col>
             </Row>
-            <Row>
+            <Row className='container-fluid'>
                 <Col></Col>
+            </Row>    
+        </div>
+        <div id='tech' className='container-fluid'>
+             <Row>
+                <Col>
+                Technologies
+                </Col>
+                <Col>
+                Technologies
+                </Col>
             </Row>
-
-        </Container>
+        </div>
+        </div>
     );
 };
 

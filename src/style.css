@@ -7,23 +7,11 @@
 
 :root {
     --white: #ffffff;
-    --gray: rgb(77, 76, 76);
+    --gray: rgb(44, 42, 42);
 }
 
-#bg-image {
-background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), 
-    url('./assets/mountain-night.jpg');
-height: 100vh;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-
-margin: 0px;
-}
-
+/*-- Header --*/
 #headerBg{
-    width: 100vw;
     background-color: var(--gray);
     padding: .1rem 7rem;
     margin: 0px;
@@ -50,16 +38,30 @@ margin: 0px;
     color: var(--white);
 }
 
+/*-- About Me --*/
+#bg {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("assets/workspace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+  }
+
+#tech {
+    height: 50vh;
+}
+
+
+/*-- Footer --*/
 .copywright {
-    color: var(--white);
+    color: var(--gray);
 }
 
 .footer h3, .logos {
     font-size: 1rem;
-}
-
-.logos ul li > a {
-    color: var(--white);
 }
 
 .foot-logos {
@@ -68,12 +70,14 @@ margin: 0px;
 
 .logos {
     text-decoration: none;
-    color: var(--white);
+    color: var(--gray);
 }
 
-  .footer {
+.footer {
     padding: 0.5rem calc((100vw - 1200px) / 2);
-  }
+}
+
+
 
 
   @media screen and (max-width: 768px) {

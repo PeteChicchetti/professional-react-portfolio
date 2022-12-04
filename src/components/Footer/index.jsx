@@ -5,7 +5,7 @@ const Footer = () => {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container fluid className=" footer">
+        <Container className=" footer">
         <Row className=''>
             <Col md='4' className='copywright'>
                 <h3>Designed and Developed by Pete Chicchetti</h3>

@@ -20,8 +20,14 @@ background-position: center;
 padding: 0.5rem calc((100vw - 1200px) / 2);
 }
 
-h1 {
+#name {
     color: var(--white);
+    justify-content: start;
+}
+
+#nav {
+    align-items: center;
+    justify-content: end;
 }
 
 .nav-list {
@@ -48,3 +54,4 @@ h1 {
     text-decoration: none;
     color: var(--white);
 }
+

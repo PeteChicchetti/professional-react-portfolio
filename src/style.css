@@ -10,10 +10,11 @@
     --gray: rgb(44, 42, 42);
 }
 
+
 /*-- Header --*/
 #headerBg{
     background-color: var(--gray);
-    padding: .1rem 7rem;
+    padding: .1rem 6.7rem;
     margin: 0px;
 }
 

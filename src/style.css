@@ -48,11 +48,20 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height: 50vh;
   }
 
 #aboutcontent {
-    flex-wrap: wrap;
+    
+}
+
+#pc {
+    width: 200px;
+    height: 200px;
+    background-image: url("assets/html-css-js.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fill;
+    background-position: center;
 }
 
 #tech {

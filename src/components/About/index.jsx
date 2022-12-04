@@ -5,12 +5,13 @@ const About = () => {
     return (
         <div>
         <div id='bg' className='container-fluid'>
-            <Row className='container-fluid' id='aboutContent' style={{ margin: '0px'}}>
-                <Col>
-                About me information
+            <Row className='container-fluid' id='aboutContent' style={{ margin: '0px' }}>
+                <Col md='4' id='pc' >
+
                 </Col>
-                <Col>
-                Logo
+                <Col md='8' id='aboutMe'>
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </Col>
             </Row>
             <Row className='container-fluid'>

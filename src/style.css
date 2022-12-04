@@ -27,3 +27,24 @@ h1 {
 .nav-list {
     color: var(--white);
 }
+
+.copywright {
+    color: var(--white);
+}
+
+.footer h3, .logos {
+    font-size: 1rem;
+}
+
+.logos ul li > a {
+    color: var(--white);
+}
+
+.foot-logos {
+    padding-right: 10px;
+}
+
+.logos {
+    text-decoration: none;
+    color: var(--white);
+}

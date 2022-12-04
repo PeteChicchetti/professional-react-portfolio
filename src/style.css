@@ -21,14 +21,21 @@ padding: 0.5rem calc((100vw - 1200px) / 2);
 margin-bottom: -60px;
 }
 
+.nameContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #name {
     color: var(--white);
     padding: 0px;
 
 }
 
-#title, #nav {
-    padding: 0px;
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
 }
 
 .nav-list {
@@ -58,5 +65,14 @@ margin-bottom: -60px;
 
   .footer {
     padding: 0.5rem calc((100vw - 1200px) / 2);
+  }
+
+  @media screen and (max-width: 768px) {
+    .nameContainer {
+        justify-content: center;
+    }
+    .nav {
+        justify-content: center;
+    }
   }
 

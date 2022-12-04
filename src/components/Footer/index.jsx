@@ -5,10 +5,10 @@ const Footer = () => {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container className=" footer">
-        <Row className=''>
+        <Container className="footer">
+        <Row className='' style={{ justifyContent: 'center', alignItems: 'center'}}>
             <Col md='4' className='copywright'>
-                <h3>Designed and Developed by Pete Chicchetti</h3>
+                <h3>Developed by Pete Chicchetti</h3>
             </Col>
             <Col md='4' className='copywright'>
                 <h3>Copyright © {year}</h3>

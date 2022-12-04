@@ -9,6 +9,10 @@
     --white: #ffffff;
 }
 
+body {
+    padding: 10px;
+}
+
 #bg-image {
 background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), 
     url('./assets/mountain-night.jpg');
@@ -22,12 +26,12 @@ padding: 0.5rem calc((100vw - 1200px) / 2);
 
 #name {
     color: var(--white);
-    justify-content: start;
+    padding: 0px;
+
 }
 
-#nav {
-    align-items: center;
-    justify-content: end;
+#title, #nav {
+    padding: 0px;
 }
 
 .nav-list {

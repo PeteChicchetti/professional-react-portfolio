@@ -7,6 +7,7 @@
 
 :root {
     --white: #ffffff;
+    --gray: rgb(77, 76, 76);
 }
 
 #bg-image {
@@ -17,8 +18,15 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
-padding: 0.5rem calc((100vw - 1200px) / 2);
-margin-bottom: -60px;
+
+margin: 0px;
+}
+
+#headerBg{
+    width: 100vw;
+    background-color: var(--gray);
+    padding: .1rem 7rem;
+    margin: 0px;
 }
 
 .nameContainer {
@@ -67,7 +75,11 @@ margin-bottom: -60px;
     padding: 0.5rem calc((100vw - 1200px) / 2);
   }
 
+
   @media screen and (max-width: 768px) {
+    #headerBg {
+        padding: .1rem 0rem;
+    }
     .nameContainer {
         justify-content: center;
     }

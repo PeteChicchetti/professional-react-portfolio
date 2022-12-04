@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
     return (
-        <Container className=''>
+        <div className='container-fluid' id='headerBg' >
             <Row  className=''style={{ alignItems: 'center'}}>
                 <Col md='6' id='title'>
                     <div className='nameContainer'>
@@ -19,7 +19,7 @@ const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
                 </ul>
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 };
 

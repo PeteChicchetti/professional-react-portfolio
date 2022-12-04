@@ -51,6 +51,10 @@
     height: 50vh;
   }
 
+#aboutcontent {
+    flex-wrap: wrap;
+}
+
 #tech {
     height: 50vh;
 }

@@ -114,6 +114,43 @@
     margin: auto;
 }
 
+/*-- Contact --*/
+.contactPage {
+    margin: 0px;
+    padding: 0px;
+    height: calc(100vh - 104px);
+}
+
+#contactContainer {
+    margin: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#contactLeft {
+    align-items: center;
+}
+
+.leftContent {
+    text-align: left;
+}
+
+#contactright {
+    align-items: center;
+}
+
+.rightContent {
+    text-align: left;
+}
+
+.contactTitle {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #000000;
+    padding: 5px;
+    border-bottom: 1px solid var(--gray);
+    
+}
 
 /*-- Footer --*/
 .copywright {
@@ -143,10 +180,14 @@
     background-color: var(--gray);
 }
 
+@media screen and (max-width: 375px){
+    .contactTitle {
+        font-size: 1.3rem;
+    }
+}
 
 
-
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #headerBg {
         padding: .1rem 0rem;
     }

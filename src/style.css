@@ -96,6 +96,7 @@
 #techRow1 {
     flex-wrap: wrap;
     padding: 2.5rem;
+    justify-content: space-evenly;
 }
 
 #techRow2 {
@@ -109,7 +110,7 @@
     text-align: center;
     width: 125px;
     height: 125px;
-    padding: .8rem;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -271,6 +272,14 @@
     }
     .nav {
         justify-content: center;
+    }
+    .icon {
+        display: flex;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+        margin: auto;
     }
   }
 

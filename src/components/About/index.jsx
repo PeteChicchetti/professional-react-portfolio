@@ -21,8 +21,8 @@ const About = () => {
         </div>
         <div id='tech' className='container-fluid'>
             <h2>Technologies</h2>
-             <Row m='12' className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
-                <Col md='2'>
+             <Row m='6' className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='html5' style={{ margin: '0px' }} >
                     
@@ -30,35 +30,35 @@ const About = () => {
                     
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='css3' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm ='4' >
                     <Col className='icon'>
                     <Col id='js' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm ='4'>
                     <Col className='icon'>
                     <Col id='react' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm ='4'>
                     <Col className='icon'>
                     <Col id='git' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm ='4'>
                     <Col className='icon'>
                     <Col id='node' style={{ margin: '0px' }} >
                     
@@ -66,36 +66,36 @@ const About = () => {
                     </Col>
                 </Col>
             </Row>
-             <Row m='10' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
-             <Col md='2'>
+             <Row m='6' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
+             <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='npm' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='booty' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='jquery' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='mysql' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='2' sm='4'>
                     <Col className='icon'>
                     <Col id='mongo' style={{ margin: '0px' }} >
                     
@@ -105,28 +105,28 @@ const About = () => {
             </Row>
             <h2>Tools</h2>
             <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
-             <Col md='2'>
+             <Col md='3' sm='5'>
                     <Col className='icon'>
                     <Col id='vscode' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='3' sm='5'>
                     <Col className='icon'>
                     <Col id='github' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='3' sm='5'>
                     <Col className='icon'>
                     <Col id='postman' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2'>
+                <Col md='3' sm='5'>
                     <Col className='icon'>
                     <Col id='heroku' style={{ margin: '0px' }} >
                     

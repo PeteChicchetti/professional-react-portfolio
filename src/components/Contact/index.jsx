@@ -18,6 +18,12 @@ const Contact = () => {
                 <Col md='4' id='contactright' style={{ margin: '0px'}}>
                     <div className='rightContent'>
                         <strong className='contactTitle'>Send Me A Message</strong>
+                        <p><strong>Name:</strong></p>
+                        <input placeholder="Contact Name"></input>
+                        <p><strong>Email Address:</strong></p>
+                        <input placeholder="Contact Email"></input>
+                        <p><strong>Message:</strong></p>
+                        <textarea rows='10' cols='55' placeholder="Message Text"></textarea>
                     </div>
                 </Col>
             </Row>

@@ -41,22 +41,42 @@
 
 /*-- About Me --*/
 #bg {
+    display: flex;
     margin: 0px;
     padding: 0px;
+    min-height: 400px;
     background-image: url("assets/workspace.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    align-items: center;
+    text-align: center;
   }
 
-#aboutcontent {
-    
+#aboutContent {
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+#aboutMe{
+    padding: 1rem;
+    max-width: 800px;
+    min-width: none;
+}
+
+#logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
 
 #pc {
-    width: 200px;
-    height: 200px;
+    margin: 0px;
     background-image: url("assets/html-css-js.png");
     background-size: cover;
     background-repeat: no-repeat;

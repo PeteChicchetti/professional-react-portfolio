@@ -84,13 +84,112 @@
     background-image: url("assets/html-css-js.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fill;
     background-position: center;
 }
 
-#tech {
-    height: 50vh;
+
+/*-- Tech --*/
+#techRow1, #techRow2 {
+    flex-wrap: wrap;
+    padding: 2.5rem;
 }
+
+.icon {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#html5 {
+    margin: 0px;
+    background-image: url("assets/html5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#css3 {
+    margin: 0px;
+    background-image: url("assets/css3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#js {
+    margin: 0px;
+    background-image: url("assets/js.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#react {
+    margin: 0px;
+    background-image: url("assets/react.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#git {
+    margin: 0px;
+    background-image: url("assets/git.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#node {
+    margin: 0px;
+    background-image: url("assets/nodejs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#booty {
+    margin: 0px;
+    background-image: url("assets/bootstrap-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jquery {
+    margin: 0px;
+    background-image: url("assets/jquery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#npm {
+    margin: 0px;
+    background-image: url("assets/npm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mysql {
+    margin: 0px;
+    background-image: url("assets/mysql.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mongo {
+    margin: 0px;
+    background-image: url("assets/mongodb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 /*-- Footer --*/

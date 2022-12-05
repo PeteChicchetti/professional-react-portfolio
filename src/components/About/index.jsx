@@ -18,15 +18,96 @@ const About = () => {
                 </Col>
                 </Col>
             </Row>
-  
         </div>
         <div id='tech' className='container-fluid'>
-             <Row className='container-fluid' style={{ margin: '0px'}}>
-                <Col>
-                Technologies
+            <h2>Technologies</h2>
+             <Row m='12' className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='html5' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    
+                    </Col>
                 </Col>
-                <Col>
-                Technologies
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='css3' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='js' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='react' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='git' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='node' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+            </Row>
+             <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
+             <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='npm' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='booty' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='jquery' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='mysql' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='mongo' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='node' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
                 </Col>
             </Row>
         </div>

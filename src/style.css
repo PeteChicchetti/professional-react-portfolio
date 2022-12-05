@@ -109,6 +109,7 @@
     text-align: center;
     width: 125px;
     height: 125px;
+    padding: .8rem;
     margin: auto;
 }
 
@@ -237,7 +238,7 @@
 
 /*-- Footer --*/
 .copywright {
-    color: var(--gray);
+    color: var(--white);
 }
 
 .footer h3, .logos {
@@ -250,11 +251,12 @@
 
 .logos {
     text-decoration: none;
-    color: var(--gray);
+    color: var(--white);
 }
 
 .footer {
     padding: 0.5rem calc((100vw - 1200px) / 2);
+    background-color: var(--gray);
 }
 
 

@@ -89,6 +89,10 @@
 
 
 /*-- Tech --*/
+#tech {
+    padding: 1rem;
+}
+
 #techRow1, #techRow2 {
     flex-wrap: wrap;
     padding: 2.5rem;
@@ -97,8 +101,8 @@
 .icon {
     display: flex;
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     margin: auto;
 }
 

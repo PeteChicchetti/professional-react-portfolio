@@ -44,8 +44,9 @@
     display: flex;
     margin: 0px;
     padding: 0px;
-    min-height: 400px;
-    background-image: url("assets/workspace.jpg");
+    min-height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), 
+        url('./assets/workspace.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,7 +56,7 @@
   }
 
 #aboutContent {
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     align-items: center;
     text-align: center;
@@ -64,8 +65,11 @@
 
 #aboutMe{
     padding: 1rem;
-    max-width: 800px;
+    max-width: 900px;
     min-width: none;
+    font-size: 24px;
+    color: var(--white);
+    text-shadow: 3px 3px 3px #000000;
 }
 
 #logo {

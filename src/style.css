@@ -93,9 +93,15 @@
     padding: 1rem;
 }
 
-#techRow1, #techRow2 {
+#techRow1 {
     flex-wrap: wrap;
     padding: 2.5rem;
+}
+
+#techRow2 {
+    flex-wrap: wrap;
+    padding: 2.5rem;
+    justify-content: space-evenly;
 }
 
 .icon {
@@ -189,6 +195,39 @@
 #mongo {
     margin: 0px;
     background-image: url("assets/mongodb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-- Tools --*/
+#vscode {
+    margin: 0px;
+    background-image: url("assets/vscode.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#github {
+    margin: 0px;
+    background-image: url("assets/GitHub-Mark-120px-plus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#postman {
+    margin: 0px;
+    background-image: url("assets/postman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#heroku {
+    margin: 0px;
+    background-image: url("assets/heroku.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

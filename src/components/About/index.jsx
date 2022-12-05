@@ -66,7 +66,7 @@ const About = () => {
                     </Col>
                 </Col>
             </Row>
-             <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
+             <Row m='10' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
              <Col md='2'>
                     <Col className='icon'>
                     <Col id='npm' style={{ margin: '0px' }} >
@@ -102,9 +102,33 @@ const About = () => {
                     </Col>
                     </Col>
                 </Col>
+            </Row>
+            <h2>Tools</h2>
+            <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
+             <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='vscode' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
                 <Col md='2'>
                     <Col className='icon'>
-                    <Col id='node' style={{ margin: '0px' }} >
+                    <Col id='github' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='postman' style={{ margin: '0px' }} >
+                    
+                    </Col>
+                    </Col>
+                </Col>
+                <Col md='2'>
+                    <Col className='icon'>
+                    <Col id='heroku' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>

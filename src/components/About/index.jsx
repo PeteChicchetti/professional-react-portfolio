@@ -24,82 +24,59 @@ const About = () => {
              <Row className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='html5' style={{ margin: '0px' }} >
-                    
-                    </Col>
-                    
+                        <img src="images/html5.png" alt="HTML Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='css3' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/css3.png" alt="CSS Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6' >
                     <Col className='icon'>
-                    <Col id='js' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/javascript.png" alt="JavaScript Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
-                    <Col id='react' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                    <img src="images/react.png" alt="React Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
-                    <Col id='git' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/git.png" alt="Git Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
-                    <Col id='node' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/nodejs.png" alt="Node.js Logo"></img>
                     </Col>
                 </Col>
             </Row>
              <Row  className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
              <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='npm' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/bootstrap.png" alt="Bootstrap Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='booty' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/jquery.png" alt="Jquery Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='jquery' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/npm.png" alt="NPM Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='mysql' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/mysql.png" alt="MySQL Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                    <Col id='mongo' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/mongodbleaf.png" alt="MongoDb Logo"></img>
                     </Col>
                 </Col>
             </Row>
@@ -107,30 +84,22 @@ const About = () => {
             <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
              <Col md='3' sm='5'>
                     <Col className='icon'>
-                    <Col id='vscode' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/vscode.png" alt="VsCode Logo"></img>
                     </Col>
                 </Col>
                 <Col md='3' sm='5'>
                     <Col className='icon'>
-                    <Col id='github' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/github.png" alt="GitHub Logo"></img>
                     </Col>
                 </Col>
                 <Col md='3' sm='5'>
                     <Col className='icon'>
-                    <Col id='postman' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/postman.png" alt="Postman Logo"></img>
                     </Col>
                 </Col>
                 <Col md='3' sm='5'>
                     <Col className='icon'>
-                    <Col id='heroku' style={{ margin: '0px' }} >
-                    
-                    </Col>
+                        <img src="images/heroku.png" alt="Heroku Logo"></img>
                     </Col>
                 </Col>
             </Row>

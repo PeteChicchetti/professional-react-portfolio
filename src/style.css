@@ -8,8 +8,9 @@
 :root {
     --white: #ffffff;
     --gray: rgb(44, 42, 42);
+    --purple: rgb(165, 7, 165);
+    --blue: rgb(0, 114, 177);
 }
-
 
 /*-- Header --*/
 #headerBg{
@@ -135,6 +136,23 @@
     text-align: left;
 }
 
+#info {
+    margin: 0px;
+}
+
+.githubContact, .linkedinContact {
+    font-size: 2rem;
+    color: black;
+}
+
+.githubContact:hover {
+    color: var(--purple);
+}
+
+.linkedinContact:hover {
+    color: var(--blue);
+}
+
 #contactright {
     align-items: center;
 }
@@ -175,14 +193,18 @@
     color: rgb(165, 7, 165);
 }
 
+.linkedin:hover {
+    color: rgb(0, 114, 177);
+}
+
 .footer {
     padding: 0.5rem calc((100vw - 1200px) / 2);
     background-color: var(--gray);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 540px){
     .contactTitle {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 

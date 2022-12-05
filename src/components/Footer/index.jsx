@@ -1,5 +1,8 @@
 import React from 'react';
 import { Row, Col } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 const Footer = () => {
     let date = new Date();
@@ -16,10 +19,10 @@ const Footer = () => {
             <Col md='4'>
                 <Col>
                     <span className='foot-logos'>
-                        <a className='logos' href="https://github.com/PeteChicchetti">GitHub</a>
+                        <a className='github' href="https://github.com/PeteChicchetti" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
                     </span>
                     <span>
-                        <a className='logos' href="https://www.linkedin.com/in/peter-chicchetti-268a39224/">Linked In</a>
+                        <a className='linkedin' href="https://www.linkedin.com/in/peter-chicchetti-268a39224/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                     </span>
                 </Col>
             </Col>

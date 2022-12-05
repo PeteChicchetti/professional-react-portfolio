@@ -93,15 +93,15 @@
     padding: 1rem;
 }
 
-#techRow1 {
+#techRow1  {
     flex-wrap: wrap;
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem .5rem 2.5rem;
     justify-content: space-evenly;
 }
 
 #techRow2 {
     flex-wrap: wrap;
-    padding: 2.5rem;
+    padding: .5rem 2.5rem 2.5rem 2.5rem;
     justify-content: space-evenly;
 }
 

@@ -21,8 +21,8 @@ const About = () => {
         </div>
         <div id='tech' className='container-fluid'>
             <h2>Technologies</h2>
-             <Row m='6' className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
-                <Col md='2' sm='4'>
+             <Row className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='html5' style={{ margin: '0px' }} >
                     
@@ -30,35 +30,35 @@ const About = () => {
                     
                     </Col>
                 </Col>
-                <Col md='2' sm='4'>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='css3' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm ='4' >
+                <Col lg='2' md='4' sm ='6' >
                     <Col className='icon'>
                     <Col id='js' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm ='4'>
+                <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
                     <Col id='react' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm ='4'>
+                <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
                     <Col id='git' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm ='4'>
+                <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
                     <Col id='node' style={{ margin: '0px' }} >
                     
@@ -66,36 +66,36 @@ const About = () => {
                     </Col>
                 </Col>
             </Row>
-             <Row m='6' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
-             <Col md='2' sm='4'>
+             <Row  className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
+             <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='npm' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm='4'>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='booty' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm='4'>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='jquery' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm='4'>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='mysql' style={{ margin: '0px' }} >
                     
                     </Col>
                     </Col>
                 </Col>
-                <Col md='2' sm='4'>
+                <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
                     <Col id='mongo' style={{ margin: '0px' }} >
                     

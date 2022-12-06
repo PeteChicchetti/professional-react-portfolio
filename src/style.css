@@ -245,26 +245,30 @@
 
 /*-- Portfolio --*/
 #portContainer {
-    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
+    padding: 2rem 1rem;
 }
 
 #cardContain {
+    margin: auto;
     justify-content: space-evenly;
     text-align: center;
+    padding: .3rem;
 }
 
 #card {
     padding: 8px;
     max-width: 400px;
+    min-width: 100px;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     margin: 10px;
 }
 
 .cardImg {
+    max-width: 400px;
+    min-width: 100px;
     border-radius: 5px;
 }
 

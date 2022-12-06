@@ -20,7 +20,7 @@ const About = () => {
             </Row>
         </div>
         <div id='tech' className='container-fluid'>
-            <h2>Technologies</h2>
+            <h2 className="techTitles">Technologies</h2>
              <Row className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
                 <Col lg='2' md='4' sm='6' style={{ textAlign: 'center'}}>
                     <Col className='icon'>
@@ -80,7 +80,7 @@ const About = () => {
                     </Col>
                 </Col>
             </Row>
-            <h2>Tools</h2>
+            <h2 className="techTitles">Tools</h2>
             <Row m='12' className='container-fluid' id='techRow2' style={{ margin: '0px'}}>
              <Col md='3' sm='5'>
                     <Col className='icon'>

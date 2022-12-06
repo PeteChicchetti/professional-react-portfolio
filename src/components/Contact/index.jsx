@@ -21,9 +21,9 @@ const Contact = () => {
                         <strong className='contactTitle'>Send Me A Message</strong>
                         <form>
                             <label for="name" id='name' className="nameTitle">Name:</label>
-                            <input type="text" name='name' size="33" placeholder="Contact Name" required></input>
+                            <input type="text" name='name' size="34" placeholder="Contact Name" required></input>
                             <label for='email' id='email' className="emailTitle">Email Address:</label>
-                            <input type="text" name='email' size="33" placeholder="Contact Email" required></input>
+                            <input type="text" name='email' size="34" placeholder="Contact Email" required></input>
                             <label for='message' id='message' className="messageTitle">Message:</label>
                             <textarea type="text" rows='8' cols='37' placeholder="Message Text" required></textarea>
                             <input type="submit" value="Submit" id='submit'></input>

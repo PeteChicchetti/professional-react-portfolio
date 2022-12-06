@@ -9,6 +9,7 @@ const Contact = () => {
             <Row id='contactContainer' style={{ margin: '0px'}}>
                 <Col md='6' id='contactLeft' style={{ margin: '0px'}}>
                     <div className='leftContent'>
+                        <img src="images/html-css-js.png" alt='logo' id="contactLogo"></img><br/>
                         <strong className='contactTitle'>Contact Details</strong>
                         <p id='info'><strong>Email Me:</strong><br/>petechicchetti@gmail.com</p>
                         <a className='githubContact' href="https://github.com/PeteChicchetti" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
@@ -19,12 +20,12 @@ const Contact = () => {
                     <div className='rightContent'>
                         <strong className='contactTitle'>Send Me A Message</strong>
                         <form>
-                            <label for="name" id='name' className="nameTitle">Name:</label><br/>
-                            <input type="text" name='name' size="33" placeholder="Contact Name" required></input><br/>
-                            <label for='email' id='email' className="emailTitle">Email Address:</label><br/>
-                            <input type="text" name='email' size="33" placeholder="Contact Email" required></input><br/>
-                            <label for='message' id='message' className="messageTitle">Message:</label><br/>
-                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required></textarea><br/>
+                            <label for="name" id='name' className="nameTitle">Name:</label>
+                            <input type="text" name='name' size="33" placeholder="Contact Name" required></input>
+                            <label for='email' id='email' className="emailTitle">Email Address:</label>
+                            <input type="text" name='email' size="33" placeholder="Contact Email" required></input>
+                            <label for='message' id='message' className="messageTitle">Message:</label>
+                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required></textarea>
                             <input type="submit" value="Submit" id='submit'></input>
                         </form>
                     </div>

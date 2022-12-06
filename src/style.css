@@ -87,7 +87,7 @@
     padding: 0px;
     min-height: 500px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), 
-        url('./assets/workspace.jpg');
+        url('../public/images/workspace.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -122,7 +122,7 @@
 
 #pc {
     margin: 0px;
-    background-image: url("assets/html-css-js.png");
+    background-image: url("../public/images/html-css-js.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -176,6 +176,11 @@
     text-align: center;
 }
 
+#contactLogo {
+    width: 300px;
+    height: 300px;
+}
+
 #info {
     padding: 10px;
     margin: 0px;
@@ -217,11 +222,13 @@
     margin: 0px;
     padding-top: 8px;
     font-weight: bolder;
+    display: block;
 }
 
 #submit {
     padding: 1px 3px;
     border-radius: 8px;
+    display: block;
 }
 
 #submit:hover {
@@ -294,6 +301,19 @@
         height: 100px;
         padding: 1rem;
         margin: auto;
+    }
+    .contactContainer{
+        margin: auto;
+    }
+    #contactLeft, #contactright {
+        padding: 1rem .5rem;
+    }
+    .leftContent {
+        text-align: left;
+    }
+    .rightContent {
+        text-align: left;
+        margin: 0px;
     }
   }
 

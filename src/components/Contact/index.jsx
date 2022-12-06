@@ -20,11 +20,11 @@ const Contact = () => {
                         <strong className='contactTitle'>Send Me A Message</strong>
                         <form>
                             <label for="name" id='name' className="nameTitle">Name:</label><br/>
-                            <input type="text" name='name' size="33" placeholder="Contact Name"></input><br/>
+                            <input type="text" name='name' size="33" placeholder="Contact Name" required></input><br/>
                             <label for='email' id='email' className="emailTitle">Email Address:</label><br/>
-                            <input type="text" name='email' size="33" placeholder="Contact Email"></input><br/>
+                            <input type="text" name='email' size="33" placeholder="Contact Email" required></input><br/>
                             <label for='message' id='message' className="messageTitle">Message:</label><br/>
-                            <textarea type="text" rows='8' cols='37' placeholder="Message Text"></textarea><br/>
+                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required></textarea><br/>
                             <input type="submit" value="Submit" id='submit'></input>
                         </form>
                     </div>

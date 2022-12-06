@@ -281,6 +281,17 @@
     padding-bottom: 10px;
 }
 
+#ghBtn, #webBtn {
+    padding: 1px 3px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.8);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
 /*-- Footer --*/
 .copywright {
     color: var(--white);

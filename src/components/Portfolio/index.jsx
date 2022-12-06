@@ -10,8 +10,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -19,8 +19,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">AutoAssistant</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -28,8 +28,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -37,8 +37,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -46,8 +46,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -55,8 +55,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button className="ghBtn">GitHub</button>
-                        <button className="webBtn">Preview</button>
+                        <button id="ghBtn">GitHub</button>
+                        <button id="webBtn">Preview</button>
                     </div>
                 </Card>
             </Row>

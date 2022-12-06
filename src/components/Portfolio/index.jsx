@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Card } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { BsFileEarmarkText } from "react-icons/bs";
 
 const Portfolio = () => {
     return (
@@ -10,8 +12,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -19,8 +21,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">AutoAssistant</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -28,8 +30,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -37,8 +39,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -46,8 +48,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>
@@ -55,8 +57,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using two APIs to display an artist and their info as well as a similar artist.</p>
                     <div>
-                        <button id="ghBtn">GitHub</button>
-                        <button id="webBtn">Preview</button>
+                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
+                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
             </Row>

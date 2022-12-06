@@ -309,11 +309,15 @@
         padding: 1rem .5rem;
     }
     .leftContent {
-        text-align: left;
+        text-align: center;
     }
     .rightContent {
-        text-align: left;
-        margin: 0px;
+        text-align: center;
+        margin: auto;
+    }
+    #submit{
+        text-align: center;
+        margin: auto;
     }
   }
 

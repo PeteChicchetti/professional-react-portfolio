@@ -22,19 +22,19 @@ const About = () => {
         <div id='tech' className='container-fluid'>
             <h2>Technologies</h2>
              <Row className='container-fluid' id='techRow1' style={{ margin: '0px'}}>
-                <Col lg='2' md='4' sm='6'>
+                <Col lg='2' md='4' sm='6' style={{ textAlign: 'center'}}>
                     <Col className='icon'>
                         <img src="images/html5.png" alt="HTML Logo"></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                        <img src="images/css3.png" alt="CSS Logo"></img>
+                        <img src="images/css3.png" alt="CSS Logo" style={{ paddingLeft: '10px', paddingRight: '10px'}}></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6' >
                     <Col className='icon'>
-                        <img src="images/javascript.png" alt="JavaScript Logo"></img>
+                        <img src="images/javascript.png" alt="JavaScript Logo" style={{ paddingLeft: '9px', paddingRight: '10px'}}></img>
                     </Col>
                 </Col>
                 <Col lg='2' md='4' sm ='6'>
@@ -49,7 +49,7 @@ const About = () => {
                 </Col>
                 <Col lg='2' md='4' sm ='6'>
                     <Col className='icon'>
-                        <img src="images/nodejs.png" alt="Node.js Logo"></img>
+                        <img src="images/nodejs.png" alt="Node.js Logo" style={{ padding: '0px'}}></img>
                     </Col>
                 </Col>
             </Row>
@@ -76,7 +76,7 @@ const About = () => {
                 </Col>
                 <Col lg='2' md='4' sm='6'>
                     <Col className='icon'>
-                        <img src="images/mongodbleaf.png" alt="MongoDb Logo"></img>
+                        <img src="images/mongodbleaf.png" alt="MongoDb Logo" style={{ paddingLeft: '25px', paddingRight: '20px'}}></img>
                     </Col>
                 </Col>
             </Row>

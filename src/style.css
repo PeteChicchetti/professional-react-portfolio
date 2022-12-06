@@ -261,15 +261,24 @@
 #card {
     padding: 8px;
     max-width: 400px;
-    min-width: 100px;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     margin: 10px;
 }
 
 .cardImg {
     max-width: 400px;
-    min-width: 100px;
+    min-height: 220px;
     border-radius: 5px;
+}
+
+.cardTitle {
+    margin: 0px;
+    padding: 10px 0px 5px 0px;
+}
+
+.cardPara {
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 /*-- Footer --*/
@@ -316,6 +325,10 @@
     }
     .leftContent {
         text-align: left;
+    }
+    #portContainer {
+
+        padding: 0.3rem 1rem;
     }
 }
 

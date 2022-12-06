@@ -7,7 +7,7 @@ const Nav = ({showAbout, showPortfolio, showContact, showResume}) => {
             <Row  className='container-fluid'style={{ alignItems: 'center', margin: '0px'}}>
                 <Col md='6' id='title'>
                     <div className='nameContainer'>
-                        <h1 id='name'>Pete Chicchetti</h1>
+                        <h1 id='title'>Pete Chicchetti</h1>
                     </div>
                 </Col>
                 <Col md='6' id=''>

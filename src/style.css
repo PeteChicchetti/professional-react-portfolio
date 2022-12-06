@@ -24,7 +24,7 @@
     justify-content: flex-start;
 }
 
-#name {
+#title {
     color: var(--white);
     padding: 0px;
 
@@ -138,12 +138,14 @@
 }
 
 #info {
+    padding: 10px;
     margin: 0px;
 }
 
 .githubContact, .linkedinContact {
     font-size: 2rem;
     color: black;
+    padding: 0px 5px;
 }
 
 .githubContact:hover {
@@ -174,6 +176,18 @@
 
 .nameTitle, .emailTitle, .messageTitle {
     margin: 0px;
+    padding-top: 8px;
+    font-weight: bolder;
+}
+
+#submit {
+    padding: 1px 3px;
+    border-radius: 8px;
+}
+
+#submit:hover {
+    background-color: var(--gray);
+    color: var(--white);
 }
 
 /*-- Footer --*/

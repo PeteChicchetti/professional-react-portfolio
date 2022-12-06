@@ -27,7 +27,11 @@
 #title {
     color: var(--white);
     padding: 0px;
+    min-width: 230px;
+}
 
+#navlist {
+    min-width: 265px;
 }
 
 .nav {
@@ -36,9 +40,50 @@
     justify-content: flex-end;
 }
 
-.nav-list {
+/* .nav-list {
+    color: var(--white);
+    cursor: pointer;
+} */
+
+#navNames{
     color: var(--white);
 }
+
+.nav-link {
+    text-decoration: none;
+    color: var(--white);
+    position: relative;
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+
+  .nav-link:link {
+    color: var(--white);
+  }
+  .nav-link:visited {
+    color: var(--white);
+  }
 
 /*-- About Me --*/
 #bg {

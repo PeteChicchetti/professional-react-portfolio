@@ -7,23 +7,23 @@ const Contact = () => {
     return (
         <section className='container-fluid contactPage'>
             <Row id='contactContainer' style={{ margin: '0px'}}>
-                <Col md='4' id='contactLeft' style={{ margin: '0px'}}>
+                <Col md='6' id='contactLeft' style={{ margin: '0px'}}>
                     <div className='leftContent'>
                         <strong className='contactTitle'>Contact Details</strong>
-                        <p id='info'><strong>Email Me:</strong><br/>petechicchetti@gmail.com</p>
+                        <p id='info '><strong>Email Me:</strong><br/>petechicchetti@gmail.com</p>
                         <a className='githubContact' href="https://github.com/PeteChicchetti" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
                         <a className='linkedinContact' href="https://www.linkedin.com/in/peter-chicchetti-268a39224/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                     </div>
                 </Col>
-                <Col md='4' id='contactright' style={{ margin: '0px'}}>
+                <Col md='6' id='contactright' style={{ margin: '0px'}}>
                     <div className='rightContent'>
                         <strong className='contactTitle'>Send Me A Message</strong>
-                        <p><strong>Name:</strong></p>
+                        <p className="nameTitle"><strong>Name:</strong></p>
                         <input placeholder="Contact Name"></input>
-                        <p><strong>Email Address:</strong></p>
+                        <p className="emailTitle"><strong>Email Address:</strong></p>
                         <input placeholder="Contact Email"></input>
-                        <p><strong>Message:</strong></p>
-                        <textarea rows='10' cols='55' placeholder="Message Text"></textarea>
+                        <p className="messageTitle"><strong>Message:</strong></p>
+                        <textarea rows='8' cols='37' placeholder="Message Text"></textarea>
                     </div>
                 </Col>
             </Row>

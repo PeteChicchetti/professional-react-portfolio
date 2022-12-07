@@ -166,7 +166,7 @@
     margin: 0px;
     padding: 0px;
     min-height: calc(100vh - 104px);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), 
         url('../public/images/hex-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;

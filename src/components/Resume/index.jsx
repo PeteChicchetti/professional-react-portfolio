@@ -7,7 +7,7 @@ const Resume = () => {
         <div id='resumeContainer'>
             <Row className='container-fluid'id='resumeCardContainer'>
                 <Card id='resumeCard'style={{ textAlign:'center'}}>
-                    <span><button id='downloadBtn' ><BsDownload /> Download</button></span>
+                    <span id='btnPos'><button id='downloadBtn' ><BsDownload /> Download</button></span>
                     <img id='resume' src='images/resume.png' alt='Resume of Pete Chicchetti' ></img>
                 </Card>
             </Row>

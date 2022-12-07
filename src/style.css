@@ -335,10 +335,14 @@
 
 #resumeCardContainer {
     padding: 10px;
-    max-width: 400px;
+    max-width: 900px;
+    max-height: 1155px;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     margin: 10px;
+    border-radius: 5px;
 }
+
+
 
 /*-- Footer --*/
 .copywright {

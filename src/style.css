@@ -362,6 +362,8 @@
     font-family: sans-serif;
     color: var(--gray);
     text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
 }
 
 #downloadBtn:hover {

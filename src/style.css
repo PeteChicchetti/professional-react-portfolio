@@ -293,6 +293,7 @@
     font-weight: bold;
     font-family: sans-serif;
     color: var(--gray);
+    text-decoration: none;
 }
 
 #ghBtn:hover, #webBtn:hover {

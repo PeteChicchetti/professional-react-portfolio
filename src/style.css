@@ -267,7 +267,7 @@
 
 .cardImg {
     max-width: 400px;
-    min-height: 220px;
+    height: 220px;
     border-radius: 5px;
 }
 

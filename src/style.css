@@ -318,6 +318,28 @@
     color: var(--white);
 }
 
+/*-- Resume --*/
+#resumeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+    min-height: calc(100vh - 105px);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), 
+    url('../public/images/hex-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#resumeCardContainer {
+    padding: 10px;
+    max-width: 400px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    margin: 10px;
+}
+
 /*-- Footer --*/
 .copywright {
     color: var(--white);

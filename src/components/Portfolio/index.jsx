@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Card } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFileEarmarkText } from "react-icons/bs";
 
 const Portfolio = () => {
     return (
-        <Container id='portContainer' style={{ margin: 'auto' }}>
+        <div id='portContainer'>
             <Row className='container-fluid' id='cardContain'>
                 <Card id='card'>
                     <img className="cardImg" src="images/VivoVirtuoso.png" alt="VivoVirtuoso homepage"></img>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                     </div>
                 </Card>
             </Row>
-        </Container>
+        </div>
     );
 };
 

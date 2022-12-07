@@ -25,7 +25,7 @@ const Contact = () => {
                             <label for='email' id='email' className="emailTitle">Email Address:</label>
                             <input type="text" name='email' size="34" placeholder="Contact Email" required></input>
                             <label for='message' id='message' className="messageTitle">Message:</label>
-                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required></textarea>
+                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required style={{ resize: 'none'}}></textarea>
                             <input type="submit" value="Submit" id='submit'></input>
                         </form>
                     </div>

@@ -259,7 +259,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem 1rem;
-    min-height: calc(100vh - 104px);
+    min-height: calc(100vh - 105px);
     background: linear-gradient(to right, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), 
     url('../public/images/hex-bg.jpg');
     background-size: cover;

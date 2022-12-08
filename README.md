@@ -4,6 +4,7 @@
           
 ## Description
 
+[Link to deployed portfolio](https://petechicchetti.github.io/professional-react-portfolio/)<br>
 This is my official react portfolio. The portfolio shows the technologies and tools that I am familiar with as well as some of my projects. It also supports a contact form and my resume with a download link.
 
 ![Portfolio Homepage](/public/assets/portfolio-screenshot.png)

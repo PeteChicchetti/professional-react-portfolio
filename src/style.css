@@ -10,6 +10,7 @@
     --gray: rgb(44, 42, 42);
     --purple: rgb(165, 7, 165);
     --blue: rgb(0, 114, 177);
+    --black: rgb(0, 0, 0);
 }
 
 /*-- Header --*/
@@ -302,14 +303,14 @@
 #ghBtn, #webBtn {
     padding: 1px 3px;
     margin: 0px 5px;
-    border: 2px solid var(--gray);
+    border: 2px solid var(--black);
     border-radius: 5px;
     display: inline-block;
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,.8);
     font-size: 14px;
     font-weight: bold;
     font-family: sans-serif;
-    color: var(--gray);
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -355,12 +356,12 @@
     width: 100px;
     height: 32px;
     border-radius: 3px;
-    border: 2px solid var(--gray);
+    border: 2px solid var(--black);
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,.8);
     font-size: 14px;
     font-weight: bold;
     font-family: sans-serif;
-    color: var(--gray);
+    color: var(--black);
     text-decoration: none;
     padding: 5px;
     cursor: pointer;

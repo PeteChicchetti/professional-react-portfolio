@@ -411,7 +411,6 @@
     background-color: var(--gray);
 }
 
-
 @media screen and (max-width: 360px) {
     #resumeCardContainer {
         max-height: 445px;
@@ -426,6 +425,9 @@
 }
 
 @media screen and (max-width: 414px) {
+    #resumeContainer {
+        min-height: calc(100vh - 174px);
+    }
     #resumeCardContainer {
         max-height: 500px;
     }

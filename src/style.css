@@ -85,6 +85,10 @@
   }
 
 /*-- About Me --*/
+#aboutContainer {
+    padding-bottom: 40px;
+}
+
 #bg {
     display: flex;
     margin: 0px;
@@ -135,7 +139,7 @@
 
 /*-- Tech --*/
 #tech {
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 .techTitles {

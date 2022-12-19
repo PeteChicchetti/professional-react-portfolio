@@ -26,23 +26,22 @@ const Portfolio = () => {
                     </div>
                 </Card>
                 <Card id='card'>
-                    <img className="cardImg" src="images/pwa-text-editor.png" alt="VivoVirtuoso homepage"></img>
+                    <img className="cardImg" src="images/technigram-home.png" alt="Technigram homepage"></img>
+                    <h4 className="cardTitle">Technigram</h4>
+                    <p className="cardPara">Technigram's main goal is to create a platform for like minded people to share their computer builds with each other and give feedback, recommendations or just chat about something they are interested in.</p>
+                    <div>
+                        <a href='https://github.com/PeteChicchetti/technigram' target="_blank" rel="noopener noreferrer"  id="ghBtn"><AiFillGithub /> GitHub</a>
+                        <a href="https://murmuring-depths-50021.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="webBtn"><BsFileEarmarkText /> Preview</a>
+                    </div>
+                </Card>
+                <Card id='card'>
+                    <img className="cardImg" src="images/pwa-text-editor.png" alt="J.A.T.E Text Editor"></img>
                     <h4 className="cardTitle">J.A.T.E.</h4>
                     <p className="cardPara">Just Another Text Editor<br/>
                     This PWA is installable and allows for the user to save notes to an indexedDb for offline use. </p>
                     <div>
                         <a href='https://github.com/PeteChicchetti/pwa-text-editor' target="_blank" rel="noopener noreferrer"  id="ghBtn"><AiFillGithub /> GitHub</a>
                         <a href="https://afternoon-bastion-22644.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="webBtn"><BsFileEarmarkText /> Preview</a>
-                    </div>
-                </Card>
-                <Card id='card'>
-                    <img className="cardImg" src="images/coming-soon.jpg" alt="VivoVirtuoso homepage"></img>
-                    <h4 className="cardTitle">Coming Soon</h4>
-                    <p className="cardPara"></p>
-                    <div>
-                        {/*-- change buttons to a tag when links are inserted --*/}
-                        <button id="ghBtn"><AiFillGithub /> GitHub</button>
-                        <button id="webBtn"><BsFileEarmarkText /> Preview</button>
                     </div>
                 </Card>
                 <Card id='card'>

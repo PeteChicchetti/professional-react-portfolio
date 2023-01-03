@@ -28,7 +28,7 @@ const Portfolio = () => {
                 <Card id='card'>
                     <img className="cardImg" src="images/technigram-home.png" alt="Technigram homepage"></img>
                     <h4 className="cardTitle">Technigram</h4>
-                    <p className="cardPara">Technigram is a MERN stack platform for like minded people to share their computer builds with each other and give feedback, recommendations or just chat about something they are interested in.</p>
+                    <p className="cardPara">Technigram is a MERN stack platform and social site to receive tech news and share information via technical forum</p>
                     <div>
                         <a href='https://github.com/PeteChicchetti/technigram' target="_blank" rel="noopener noreferrer"  id="ghBtn"><AiFillGithub /> GitHub</a>
                         <a href="https://murmuring-depths-50021.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="webBtn"><BsFileEarmarkText /> Preview</a>

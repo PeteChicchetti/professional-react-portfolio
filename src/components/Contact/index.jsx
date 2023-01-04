@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
+
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_isrh6jw', 'template_jb1ene6', form.current, 'mkUg8-oSgTRMJkb62')
+      .then((result) => {
+          console.log(result.text);
+          alert('Success! Email sent!')
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
     return (
         <section className='container-fluid contactPage'>
             <Row id='contactContainer' style={{ margin: '0px'}}>
@@ -19,14 +35,14 @@ const Contact = () => {
                 <Col md='6' id='contactright' style={{ margin: '0px'}}>
                     <div className='rightContent'>
                         <strong className='contactTitle'>Send Me A Message</strong>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <label htmlFor="name" id='name' className="nameTitle">Name:</label>
-                            <input type="text" name='name' size="34" placeholder="Contact Name" required></input>
+                            <input type="text" id='fullName' name='from_name' size="34" placeholder="Contact Name" required></input>
                             <label htmlFor='email' id='email' className="emailTitle">Email Address:</label>
-                            <input type="text" name='email' size="34" placeholder="Contact Email" required></input>
-                            <label htmlFor='message' id='message' className="messageTitle">Message:</label>
-                            <textarea type="text" rows='8' cols='37' placeholder="Message Text" required style={{ resize: 'none'}}></textarea>
-                            <input type="submit" value="Submit" id='submit'></input>
+                            <input type="text" name='email_id' size="34" placeholder="Contact Email" required></input>
+                            <label htmlFor='message' id='messageTitle' className="messageTitle">Message:</label>
+                            <textarea type="text" id='message' name="message" rows='8' cols='37' placeholder="Message Text" required style={{ resize: 'none'}}></textarea>
+                            <input type="submit" id='submit' value="Send" />
                         </form>
                     </div>
                 </Col>

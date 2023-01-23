@@ -14,8 +14,6 @@ This is my official react portfolio. The portfolio shows the technologies and to
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributions](#contributions)
-* [Tests](#tests)
 * [Questions](#questions)
           
 ## Installation
@@ -33,15 +31,6 @@ This application was designed for use as my personal portfolio.
   
 https://opensource.org/licenses/MIT 
     
-          
-## Contributions
-
-no guidelines
-          
-## Tests
-
-no tests
-          
 ## Questions
 If you have any questions you can find my contact info below.
 * GitHub: [PeteChicchetti](https://github.com/PeteChicchetti)

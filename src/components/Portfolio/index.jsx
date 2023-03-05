@@ -12,8 +12,8 @@ const Portfolio = () => {
                     <h4 className="cardTitle">VivoVirtuoso</h4>
                     <p className="cardPara">This is a single page front end application using one input to simultaneosly search two APIs for an artists info and a similar artist.</p>
                     <div>
-                        <a href='https://github.com/ThatBallinGuy/VivoVirtuoso' target="_blank" rel="noopener noreferrer" id="ghBtn"><AiFillGithub /> GitHub</a>
-                        <a href='https://thatballinguy.github.io/VivoVirtuoso/' target="_blank" rel="noopener noreferrer" id="webBtn"><BsFileEarmarkText /> Preview</a>
+                        <a href='https://github.com/Tristan-Ballin/VivoVirtuoso' target="_blank" rel="noopener noreferrer" id="ghBtn"><AiFillGithub /> GitHub</a>
+                        <a href='https://tristan-ballin.github.io/VivoVirtuoso/' target="_blank" rel="noopener noreferrer" id="webBtn"><BsFileEarmarkText /> Preview</a>
                     </div>
                 </Card>
                 <Card id='card'>
